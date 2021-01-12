@@ -265,3 +265,7 @@ footer{
 .btn:hover{
     background-color: brown;
 }
+.btn a{
+    text-decoration: none;
+    color: white;
+}
