@@ -64,6 +64,9 @@
     flex-direction: column;
     flex-wrap: wrap;
 }
+#info::before{
+    background: url('contact_us.jpg')  no-repeat center center/cover;
+}
 #info div{
     margin: 10px 5px;
 }
