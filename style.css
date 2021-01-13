@@ -20,6 +20,7 @@ html{
     position: sticky;
     top: 0px;
     left: 0px;
+    z-index: 100;
 }
 #navbar::before{
     content: "";
@@ -227,6 +228,40 @@ html{
     justify-content: center;
 }
 
+/* connection section */
+#info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+}
+#info::before{
+    background: url('contact\ \(1\).jpg')  no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+
+}
+#info div{
+    margin: 1rem 2rem;
+}
+#info div p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+}
+#info ul {
+    display: flex;
+}
+#info ul li{
+    list-style: none;
+}
+#info ul li a img{
+    padding:2px 15px;
+}
 /* footer section */
 footer{
     background: black;

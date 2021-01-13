@@ -58,7 +58,18 @@
     font-size: 0.8rem;
 }
 
+/* info section */
 
+#info{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#info div{
+    margin: 10px 5px;
+}
+#info div p{
+    font-size: 1.0rem;
+}
     /* footer Section */
 
 footer{
